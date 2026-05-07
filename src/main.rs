@@ -1,3 +1,3 @@
 fn main() {
-    paa::exchange::solve();    
+    paa::exchange_greedy::solve();    
 }
