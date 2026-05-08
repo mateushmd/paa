@@ -1,15 +1,25 @@
 #[macro_export]
 macro_rules! input {
     () => {{
-        let mut tmp: String = Default::default();
-        std::io::stdin().read_line(&mut tmp).expect("failed to read input");
-        tmp
+        let mut out: String = Default::default();
+        std::io::stdin().read_line(&mut out).expect("failed to read input");
+        out
     }};
 
-    ( $a:expr ) => {{
+    ( $prompt:expr ) => {{
         use std::io::Write;
-        print!("{}", $a);
+        print!("{}", $prompt);
         std::io::stdout().flush().expect("failed to flush");
         input!()
     }};
+
+    ( $prompt:expr, $type:ty ) => {{
+        use std::io::Write;
+        print!("{}", $prompt);
+        std::io::stdout().flush().expect("failed to flush");
+
+        let mut out: String = Default::default();
+        std::io::stdin().read_line(&mut out).expect("failed to read input");
+        out.trim().parse::<$type>().expect("type mismatch")
+    }}
 }

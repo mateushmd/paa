@@ -1,3 +1,3 @@
 fn main() {
-    paa::exchange_greedy::solve();    
+    paa::interval_partitioning::solve();    
 }
