@@ -1,3 +1,3 @@
 fn main() {
-    paa::interval_partitioning::solve();    
+    paa::longest_increasing_subsequence::solve();
 }
