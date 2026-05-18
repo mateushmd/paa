@@ -1,4 +1,4 @@
-pub mod input;
+pub mod macros;
 
 mod interval;
 mod graph;

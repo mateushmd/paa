@@ -20,6 +20,4 @@ pub fn solve() {
 
     let u = input!("starting node: ", usize);
     let v = input!("finishing node: ", usize);
-
-    
 }

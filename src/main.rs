@@ -1,3 +1,3 @@
 fn main() {
-    paa::longest_increasing_subsequence::solve();
+    paa::maximum_subarray::solve();
 }

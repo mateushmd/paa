@@ -1,8 +1,12 @@
 pub mod common;
-pub mod exchange;
-pub mod exchange_greedy;
-pub mod interval_scheduling;
-pub mod interval_partitioning;
-pub mod weighted_interval_scheduling;
-pub mod dijkstra;
-pub mod longest_increasing_subsequence;
+mod problems;
+
+pub use problems::exchange;
+pub use problems::exchange_greedy;
+pub use problems::exchange_with_matrix;
+pub use problems::interval_scheduling;
+pub use problems::interval_partitioning;
+pub use problems::weighted_interval_scheduling;
+pub use problems::dijkstra;
+pub use problems::longest_increasing_subsequence;
+pub use problems::maximum_subarray;
