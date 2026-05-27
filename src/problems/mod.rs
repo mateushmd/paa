@@ -7,3 +7,7 @@ pub mod weighted_interval_scheduling;
 pub mod dijkstra;
 pub mod longest_increasing_subsequence;
 pub mod maximum_subarray;
+pub mod longest_contiguous_increasing_subsequence;
+pub mod longest_palindrome;
+pub mod longest_common_subsequence;
+pub mod maximum_division;

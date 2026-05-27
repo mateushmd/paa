@@ -1,18 +1,12 @@
-use crate::input;
+use crate::input_vec;
 
 pub fn solve() {
-    let n = input!("list size: ", usize);
+    let vec = input_vec!(isize);
+    let mut subsets = vec![1; vec.len()];
 
-    let mut vec = vec![0; n];
-    let mut subsets = vec![1; n];
-
-    for i in 0..n {
-        vec[i] = input!(format!("value {i}: "), usize);
-    }
-
-    for i in 0..n {
+    for i in 0..vec.len() {
         for j in 0..i {
-            if vec[j] <= vec[i] {
+            if vec[j] < vec[i] {
                 subsets[i] = std::cmp::max(subsets[i], subsets[j] + 1);
             }
         }

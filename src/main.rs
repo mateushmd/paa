@@ -1,3 +1,3 @@
 fn main() {
-    paa::maximum_subarray::solve();
+    paa::maximum_division::solve();
 }
