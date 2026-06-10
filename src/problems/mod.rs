@@ -11,3 +11,4 @@ pub mod longest_contiguous_increasing_subsequence;
 pub mod longest_palindrome;
 pub mod longest_common_subsequence;
 pub mod maximum_division;
+pub mod count_inversions;

@@ -14,3 +14,4 @@ pub use problems::longest_contiguous_increasing_subsequence;
 pub use problems::longest_palindrome;
 pub use problems::longest_common_subsequence;
 pub use problems::maximum_division;
+pub use problems::count_inversions;

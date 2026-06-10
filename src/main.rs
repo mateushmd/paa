@@ -1,3 +1,3 @@
 fn main() {
-    paa::maximum_division::solve();
+    paa::count_inversions::solve();
 }
