@@ -66,3 +66,11 @@ macro_rules! input_vec {
             .collect::<Vec<$type>>()
     }}
 }
+
+#[macro_export]
+macro_rules! halt {
+    () => {{
+        let mut buffer = String::new();
+        std::io::stdin().read_line(&mut buffer).unwrap();
+    }}
+}

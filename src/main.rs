@@ -1,3 +1,3 @@
 fn main() {
-    paa::count_inversions::solve();
+    paa::exchange_with_matrix::solve();
 }
