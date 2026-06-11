@@ -6,8 +6,8 @@ Collection of solutions for the problems studied in PAA classes.
 
 - [ ] Dijkstra
 - [X] Exchange Problem
-- [X] Exchange Problem - Greedy Version
-- [X] Exchange Problem - Solution With Matrix
+    - [X] Extra: Greedy Version
+    - [X] Extra: Solution With Matrix
 - [X] Interval Partitioning
 - [X] Interval Scheduling
 - [X] Longest Common Subsequence
