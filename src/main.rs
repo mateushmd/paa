@@ -1,3 +1,3 @@
 fn main() {
-    paa::exchange_with_matrix::solve();
+    paa::optimal_division_with_matrix::solve();
 }

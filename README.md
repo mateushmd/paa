@@ -5,6 +5,8 @@ Collection of solutions for the problems studied in PAA classes.
 ## Problems
 
 - [ ] Dijkstra
+- [ ] Edit Distance
+    - [X] Edit Distance: Solution with Matrix
 - [X] Exchange Problem
     - [X] Extra: Greedy Version
     - [X] Extra: Solution With Matrix
@@ -16,5 +18,7 @@ Collection of solutions for the problems studied in PAA classes.
 - [ ] Longest Palindrome
 - [ ] Maximum Division
 - [ ] Maximum Subarray
+- [ ] Optimal Division
+    - [ ] Optimal Division: Solution With Matrix
 - [X] Weighted Interval Scheduling
 
