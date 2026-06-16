@@ -19,11 +19,12 @@ pub fn solve() {
     println!();
     halt!();
 
-    for i in 0..(v.len() - 1) {
-        for j in (1 + i)..v.len() {
+    for j in 1..v.len() {
+        for i in (0..j).rev() {
             e(&mut m1, &m2, i, j);
             e_l(&m1, &mut m2, i, j);
 
+            println!("i={i} j={j}");
             println!("m1");
             print!("{:?}", PrettyVec::from_2d(m1.clone()));
             println!();
@@ -38,7 +39,7 @@ pub fn solve() {
 fn e(m1: &mut Vec<Vec<f32>>, m2: &Vec<Vec<f32>>, i: usize, j: usize) {
     let mut max_div = f32::MIN;
     for k in i..j {
-        let div = m1[i][j - k - 1] / m2[k + 1][j];
+        let div = m1[i][k] / m2[k + 1][j];
         max_div = if max_div < div { div } else { max_div }
     }
     m1[i][j] = max_div;
@@ -47,7 +48,7 @@ fn e(m1: &mut Vec<Vec<f32>>, m2: &Vec<Vec<f32>>, i: usize, j: usize) {
 fn e_l(m1: &Vec<Vec<f32>>, m2: &mut Vec<Vec<f32>>, i: usize, j: usize) {
     let mut min_div = f32::MAX;
     for k in i..j {
-        let div = m2[i][j - k - 1] / m1[k + 1][j];
+        let div = m2[i][k] / m1[k + 1][j];
         min_div = if min_div > div { div } else { min_div }
     }
     m2[i][j] = min_div;

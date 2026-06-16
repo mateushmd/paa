@@ -19,6 +19,6 @@ Collection of solutions for the problems studied in PAA classes.
 - [ ] Maximum Division
 - [ ] Maximum Subarray
 - [ ] Optimal Division
-    - [ ] Optimal Division: Solution With Matrix
+    - [X] Optimal Division: Solution With Matrix
 - [X] Weighted Interval Scheduling
 
