@@ -16,3 +16,4 @@ pub mod longest_increasing_subsequence_with_matrix;
 pub mod edit_distance_with_matrix;
 pub mod optimal_division_with_matrix;
 pub mod shortest_common_superstring;
+pub mod shortest_common_supersequence;

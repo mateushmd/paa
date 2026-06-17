@@ -13,9 +13,6 @@ pub fn solve() {
         .filter(|&b| matches!(b, b'A'..=b'Z' | b'a'..=b'z'))
         .collect();
 
-    println!("{b1:?}");
-    println!("{b2:?}");
-
     let mut mat = vec![vec![0usize; b2.len()]; b1.len()];
 
     for i in 0..b1.len() {
@@ -56,5 +53,5 @@ pub fn solve() {
         }
     }
 
-    print!("{max_valid_overlap}");
+    print!("{}", b1.len() + b2.len() - max_valid_overlap);
 }
