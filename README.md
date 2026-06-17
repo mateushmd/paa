@@ -4,6 +4,7 @@ Collection of solutions for the problems studied in PAA classes.
 
 ## Problems
 
+- [X] Count Inversions
 - [ ] Dijkstra
 - [ ] Edit Distance
     - [X] Edit Distance: Solution with Matrix

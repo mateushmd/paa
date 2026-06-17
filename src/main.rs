@@ -1,3 +1,3 @@
 fn main() {
-    paa::shortest_common_supersequence::solve();
+    paa::count_inversions::solve();
 }

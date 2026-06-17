@@ -2,41 +2,45 @@ use crate::input_vec;
 
 pub fn solve() {
     let mut v = input_vec!(isize);
-    let len = v.len();
+    let size = v.len();
 
-    print!("{}", sort(&mut v, 0, len - 1, 0)); 
+    print!("{}", sort(&mut v, 0, size - 1));
 }
 
-pub fn sort(v: &mut Vec<isize>, l: usize, r: usize, mut c: usize) -> usize {
-    if l < r {
-        let mid = (l + r + 1) / 2;
-        c = sort(v, l, mid, c) + sort(v, mid + 1, r, c);
-        c += merge(v, l, mid, r, c);
+fn sort(v: &mut Vec<isize>, l: usize, r: usize) -> usize {
+    if l >= r {
+        return 0
     }
 
-    c
+    let mid = (l + r) / 2;
+    sort(v, l, mid) + sort(v, mid + 1, r) + merge(v, l, mid, r)
 }
 
-pub fn merge(v: &mut Vec<isize>, l: usize, mid: usize, r: usize, mut c: usize) -> usize {
+fn merge(v: &mut Vec<isize>, l: usize, mid: usize, r: usize) -> usize {
     let size = r - l + 1;
-    let mut sub_vec = vec![0; size]; 
-    let mut ptr_l = l;
-    let mut ptr_r = mid + 1;
+    let mut i_l = l;
+    let mut i_r = mid + 1;
+
+    let mut aux_v = vec![0isize; size]; 
+    let mut invs = 0usize;
 
     for i in 0..size {
-        sub_vec[i] = if ptr_r <= r && v[ptr_r] < v[ptr_l] {
-            ptr_r += 1;
-            c += 1; 
-            v[ptr_r]
+        if i_l > mid {
+            aux_v[i] = v[i_r];
+            i_r += 1;
+        } else if i_r > r || v[i_l] <= v[i_r] {
+            aux_v[i] = v[i_l];
+            i_l += 1;
         } else {
-            ptr_l += 1;
-            v[ptr_l]
-        };
+            aux_v[i] = v[i_r];
+            i_r += 1;
+            invs += mid - i_l + 1;
+        }
     }
 
     for i in 0..size {
-        v[i + ptr_l] = sub_vec[i];
+        v[l + i] = aux_v[i];
     }
 
-    c
+    invs
 }
