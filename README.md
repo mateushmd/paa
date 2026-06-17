@@ -20,5 +20,7 @@ Collection of solutions for the problems studied in PAA classes.
 - [ ] Maximum Subarray
 - [ ] Optimal Division
     - [X] Optimal Division: Solution With Matrix
+- [ ] Shortest Common Superstring
+    - [X] Shortest Common Superstring: Solution With Matrix
 - [X] Weighted Interval Scheduling
 

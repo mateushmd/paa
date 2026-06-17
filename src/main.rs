@@ -1,3 +1,3 @@
 fn main() {
-    paa::optimal_division_with_matrix::solve();
+    paa::shortest_common_superstring::solve();
 }

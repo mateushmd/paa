@@ -18,3 +18,4 @@ pub use problems::count_inversions;
 pub use problems::longest_increasing_subsequence_with_matrix;
 pub use problems::edit_distance_with_matrix;
 pub use problems::optimal_division_with_matrix;
+pub use problems::shortest_common_superstring;
