@@ -13,6 +13,7 @@ Collection of solutions for the problems studied in PAA classes.
     - [X] Exchange Problem: Solution With Matrix
 - [X] Interval Partitioning
 - [X] Interval Scheduling
+- [X] Karatsuba
 - [X] Longest Common Subsequence
 - [X] Longest Contiguous Increasing Subsequence
 - [X] Longest Increasing Subsequence

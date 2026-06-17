@@ -20,3 +20,4 @@ pub use problems::edit_distance_with_matrix;
 pub use problems::optimal_division_with_matrix;
 pub use problems::shortest_common_superstring;
 pub use problems::shortest_common_supersequence;
+pub use problems::karatsuba;
