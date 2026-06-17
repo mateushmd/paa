@@ -8,8 +8,8 @@ Collection of solutions for the problems studied in PAA classes.
 - [ ] Edit Distance
     - [X] Edit Distance: Solution with Matrix
 - [X] Exchange Problem
-    - [X] Extra: Greedy Version
-    - [X] Extra: Solution With Matrix
+    - [X] Exchange Problem: Greedy Version
+    - [X] Exchange Problem: Solution With Matrix
 - [X] Interval Partitioning
 - [X] Interval Scheduling
 - [X] Longest Common Subsequence
@@ -17,6 +17,7 @@ Collection of solutions for the problems studied in PAA classes.
 - [X] Longest Increasing Subsequence
 - [ ] Longest Palindrome
 - [ ] Maximum Division
+    - [X] Maximum Division: Solution With Matrix
 - [ ] Maximum Subarray
 - [ ] Optimal Division
     - [X] Optimal Division: Solution With Matrix
