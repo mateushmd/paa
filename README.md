@@ -4,6 +4,8 @@ Collection of solutions for the problems studied in PAA classes.
 
 ## Problems
 
+- [ ] Biggest Contiguous Sum
+    - [X] Biggest Contiguous Sum: Divide and Conquer
 - [X] Count Inversions
 - [ ] Dijkstra
 - [ ] Edit Distance

@@ -21,3 +21,5 @@ pub use problems::optimal_division_with_matrix;
 pub use problems::shortest_common_superstring;
 pub use problems::shortest_common_supersequence;
 pub use problems::karatsuba;
+pub use problems::biggest_contiguous_sum;
+pub use problems::biggest_contiguous_sum_divide_and_conquer;
