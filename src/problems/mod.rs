@@ -20,3 +20,4 @@ pub mod shortest_common_supersequence;
 pub mod karatsuba;
 pub mod biggest_contiguous_sum;
 pub mod biggest_contiguous_sum_divide_and_conquer;
+pub mod longest_common_subsequence_with_matrix;

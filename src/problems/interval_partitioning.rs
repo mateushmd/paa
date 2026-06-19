@@ -1,5 +1,3 @@
-use std::usize;
-
 use crate::{
     input,
     common::Interval

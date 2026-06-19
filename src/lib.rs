@@ -23,3 +23,4 @@ pub use problems::shortest_common_supersequence;
 pub use problems::karatsuba;
 pub use problems::biggest_contiguous_sum;
 pub use problems::biggest_contiguous_sum_divide_and_conquer;
+pub use problems::longest_common_subsequence_with_matrix;

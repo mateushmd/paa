@@ -16,7 +16,8 @@ Collection of solutions for the problems studied in PAA classes.
 - [X] Interval Partitioning
 - [X] Interval Scheduling
 - [X] Karatsuba
-- [X] Longest Common Subsequence
+- [ ] Longest Common Subsequence
+- [X] Longest Common Subsequence: Solution With Matrix
 - [X] Longest Contiguous Increasing Subsequence
 - [X] Longest Increasing Subsequence
 - [ ] Longest Palindrome
