@@ -13,6 +13,8 @@ Collection of solutions for the problems studied in PAA classes.
 - [X] Exchange Problem
     - [X] Exchange Problem: Greedy Version
     - [X] Exchange Problem: Solution With Matrix
+- [ ] Heaviest Common Subsequence
+    - [X] Heaviest Common Subsequence: Solution With Matrix
 - [X] Interval Partitioning
 - [X] Interval Scheduling
 - [X] Karatsuba
