@@ -26,3 +26,4 @@ pub use problems::biggest_contiguous_sum_divide_and_conquer;
 pub use problems::longest_common_subsequence_with_matrix;
 pub use problems::heaviest_common_subsequence_with_matrix;
 pub use problems::closest_pair_of_points;
+pub use problems::longest_bitonic_sequence_with_matrix;
