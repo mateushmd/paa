@@ -6,6 +6,7 @@ Collection of solutions for the problems studied in PAA classes.
 
 - [ ] Biggest Contiguous Sum
     - [X] Biggest Contiguous Sum: Divide and Conquer
+- [ ] Closest Pair of Points
 - [X] Count Inversions
 - [ ] Dijkstra
 - [ ] Edit Distance
@@ -19,7 +20,7 @@ Collection of solutions for the problems studied in PAA classes.
 - [X] Interval Scheduling
 - [X] Karatsuba
 - [ ] Longest Common Subsequence
-- [X] Longest Common Subsequence: Solution With Matrix
+    - [X] Longest Common Subsequence: Solution With Matrix
 - [X] Longest Contiguous Increasing Subsequence
 - [X] Longest Increasing Subsequence
 - [ ] Longest Palindrome
