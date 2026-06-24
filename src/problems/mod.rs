@@ -24,3 +24,4 @@ pub mod longest_common_subsequence_with_matrix;
 pub mod heaviest_common_subsequence_with_matrix;
 pub mod closest_pair_of_points;
 pub mod longest_bitonic_sequence_with_matrix;
+pub mod tromino_tiling;
